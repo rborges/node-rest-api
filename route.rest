@@ -1,0 +1,20 @@
+### acessando via get
+GET http://localhost:3000
+### acessandoi via get
+GET http://localhost:3000/subscribers
+### 
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "userName": "Rodrigo Borges",
+    "userChannel": "Brasil"
+}
+### 
+PATCH  http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "userName": "Rodrigo",
+}
+###
